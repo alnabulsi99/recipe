@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from "./Styles.modules.css";
+import styles from "./Styles.module.css";
 
 const AddDishPage = () => {
   const [mainCategory, setMainCategory] = useState('');

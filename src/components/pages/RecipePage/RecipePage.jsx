@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import Card from "react-bootstrap/Card";
-import styles from "./Styles.modules.css";
+import styles from "./Styles.module.css";
 import { fetchRecipe } from "../../../Redux/CategRducer/actions";
 import { useNavigate } from "react-router-dom";
 
@@ -22,7 +22,7 @@ const RecipePage = () => {
     <div className={`d-flex flex-wrap ${styles.wrapper}`}>
       {category.recipes.map((recipe) => (
         <div key={recipe.id} className={styles.recipeCard}>
-          <Card style={{ width: "18rem" }}>
+          <Card >
             <Card.Img variant="top" src={recipe.picture} />
             <Card.Body>
               <Card.Title>{recipe.name}</Card.Title>

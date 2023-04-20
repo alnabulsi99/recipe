@@ -1,4 +1,4 @@
-import styles from "./Styles.modules.css";
+import styles from "./Styles.module.css";
 import { useSelector, useDispatch } from "react-redux";
 import React, { useEffect } from "react";
 import { FETCHCATEG } from "../../../Redux/CategRducer/actions";
@@ -22,16 +22,16 @@ const LandingPage = () => {
   return (
     <Row className={styles.wrapper}>
       {categories.map((category) => (
-        <Col xs={12} sm={6} md={4} lg={3} key={category.id}>
-          <Card>
+       
+          <Card className={styles.card}>
             <Card.Img variant="top" src={category.category_picture} />
-            <Card.Body>
-              <Card.Title>{category.name}</Card.Title>
-              <Card.Text>{category.description}</Card.Text>
+            <Card.Body className={styles.cardBody}>
+              <Card.Title className={styles.cardTitle}>{category.name}</Card.Title>
+              <Card.Text className={styles.cardText}>{category.description}</Card.Text>
               <button onClick={() => Handlebtn(category)}>See Recipes</button>
             </Card.Body>
           </Card>
-        </Col>
+      
       ))}
     </Row>
   );

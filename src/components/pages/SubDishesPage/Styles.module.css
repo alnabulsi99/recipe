@@ -1,0 +1,75 @@
+/* Styles.module.css */
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .imageAndDescription {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .image {
+    flex: 1;
+  }
+  
+  .img1 {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .description {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .comment {
+    margin-top: 20px;
+  }
+  
+  .comment h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .comment input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .comment button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .comment button:hover {
+    background-color: #0069d9;
+  }
+  
+  .comments {
+    margin-top: 20px;
+  }
+  
+  .comments p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .comments div {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  

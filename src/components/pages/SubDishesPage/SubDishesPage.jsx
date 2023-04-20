@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./Styles.modules.css";
+import styles from "./Styles.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { AddComment } from "../../../Redux/CategRducer/actions";
 
