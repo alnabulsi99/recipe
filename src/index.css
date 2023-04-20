@@ -1,0 +1,6 @@
+body {
+    margin: 20px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background-color: gray;
+  }

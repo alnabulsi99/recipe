@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: row;
+  }
+  
+  .recipeCard {
+    margin: 1rem;
+  }
+  
+  .ingredientsButton {
+    margin-top: 1rem;
+  }

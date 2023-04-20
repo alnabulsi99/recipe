@@ -1,0 +1,44 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .header {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .buttonContainer {
+    display: flex;
+  }
+  
+  .button {
+    color: white;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    background-color: #007bff;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .home {
+    background-color: #28a745;
+  }
+  
+  .addRecipe {
+    background-color: #dc3545;
+  }
+  
+  .button:hover {
+    background-color: #0069d9;
+  }
+  
+  .separator {
+    margin: 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
